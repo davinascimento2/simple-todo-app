@@ -1,7 +1,6 @@
 Crie um arquivo README.md com o seguinte conteúdo:
 
-markdown
-Copiar código
+
 # Simple To-Do App
 
 Este é um aplicativo simples de gerenciamento de tarefas (to-do list) criado com Node.js e HTML/CSS. O objetivo deste projeto é praticar conceitos básicos de desenvolvimento web.
@@ -25,7 +24,7 @@ node server/index.js
 Acesse o aplicativo em http://localhost:3000.
 
 java
-Copiar código
+
 
 #### 2.2. **package.json**
 Crie um arquivo `package.json` na raiz do projeto:
@@ -86,7 +85,6 @@ Copiar código
 Crie o arquivo styles.css na pasta client/:
 
 css
-Copiar código
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -129,7 +127,6 @@ li {
 Crie o arquivo index.js dentro da pasta server/:
 
 javascript
-Copiar código
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -151,13 +148,11 @@ npm install
 Após a configuração do projeto, você pode subir as alterações para o GitHub:
 
 bash
-Copiar código
 git add .
 git commit -m "Initial commit"
 git push origin main
 5. Executar o Projeto
 Para iniciar o servidor, use o comando:
 bash
-Copiar código
 npm start
 Abra seu navegador e acesse http://localhost:3000 para ver o aplicativo em funcionamento.
