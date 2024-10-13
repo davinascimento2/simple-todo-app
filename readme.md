@@ -19,7 +19,6 @@ npm install
 Inicie o servidor:
 
 bash
-Copiar código
 node server/index.js
 Acesse o aplicativo em http://localhost:3000.
 
@@ -42,17 +41,16 @@ Crie um arquivo `package.json` na raiz do projeto:
     "express": "^4.18.2"
   }
 }
+````
 2.3. .gitignore
 Crie um arquivo .gitignore e adicione o seguinte conteúdo:
 
-Copiar código
 node_modules/
 2.4. client/index.html
 Crie o arquivo index.html dentro da pasta client/:
 
 html
-Copiar código
-<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -81,11 +79,12 @@ Copiar código
     </script>
 </body>
 </html>
-2.5. client/styles.css
-Crie o arquivo styles.css na pasta client/:
+```
+```2.5. client/styles.css
+Crie o arquivo styles.css na pasta client/:``````
 
-css
-body {
+```css```
+```body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
@@ -123,10 +122,13 @@ li {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
-2.6. server/index.js
-Crie o arquivo index.js dentro da pasta server/:
 
-javascript
+``````
+``````2.6. server/index.js
+
+`````` Crie o arquivo index.js dentro da pasta server/:
+
+javascript``````
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -142,7 +144,7 @@ app.listen(PORT, () => {
 Abra o terminal na raiz do projeto.
 Execute o seguinte comando para instalar o Express:
 bash
-Copiar código
+``````
 npm install
 4. Subir o Projeto para o GitHub
 Após a configuração do projeto, você pode subir as alterações para o GitHub:
