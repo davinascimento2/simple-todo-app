@@ -1,4 +1,3 @@
-Crie um arquivo README.md com o seguinte conteúdo:
 
 
 # Simple To-Do App
